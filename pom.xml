@@ -11,8 +11,8 @@
  <url>http://maven.apache.org</url>
 
  <properties>
-   <maven.compiler.source>6</maven.compiler.source>
-   <maven.compiler.target>1.6</maven.compiler.target>
+   <maven.compiler.source>7</maven.compiler.source>
+   <maven.compiler.target>1.7</maven.compiler.target>
  </properties>
 
 <build>
@@ -40,6 +40,6 @@ java -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>6.14.3</version>
+    <version>7</version>
     <scope>test</scope>
 </dependency>
