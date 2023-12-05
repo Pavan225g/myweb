@@ -39,11 +39,22 @@
 	
 	<pluginRepositories>
 	    <pluginRepository>    
-		<id>maven3</id>
+		<id>maven1</id>
 		<name>Maven.org</name>
-		<url>http://repo1.maven.org/maven3</url>
+		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
-
+<build>
+   <plugins>
+   <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+        </configuration>
+    </plugin>
+   </plugins>
+   </build>
 	
 </project>
